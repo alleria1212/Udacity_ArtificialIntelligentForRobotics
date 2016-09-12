@@ -1,10 +1,11 @@
 
 
-colors = [	['green', 'green', 'green'],
-			['green','red','red'],
-			['green','green','green']]
-measurement = ['red', 'red']
-motions = [[0, 0], [0, 1]]
+colors = [	['green', 'green', 'green','green'],
+			['green','red','red','green'],
+			['green','green','green','red']
+			['red','red','green','red']]
+measurement = ['red', 'red','green','green','red']
+motions = [[0, 0], [1, 0],[0,1],[0,1],[0,1]]
 sensor_right = 1.0
 p_move = 0.5
 
